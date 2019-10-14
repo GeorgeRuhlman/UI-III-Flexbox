@@ -338,3 +338,15 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.bottom-section .facts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-section img {
+  display: flex;
+}
