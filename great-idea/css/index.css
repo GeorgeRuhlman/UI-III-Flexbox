@@ -331,22 +331,45 @@ footer {
   height: 200px;
   margin: 15px;
   padding: 10px;
+  background: lightgray;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .middle-section button {
+  width: 40%;
+  margin: auto 0;
+  background: peachpuff;
+  border-radius: 10px;
+  padding: 7px;
   display: flex;
   justify-content: center;
 }
 
 .bottom-section .facts {
-  width: 100%;
+  width: 45%;
+  height: 150px;
+  margin: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.bottom-section img {
+.bottom-section .list ul {
+  width: 23%;
+  margin-left: 40px;
+  list-style-type: square;
+  line-height: 35px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bottom-section .employee {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
